@@ -88,7 +88,7 @@ def main():
 
     # Load embedding model (sentence‑transformers)
     from sentence_transformers import SentenceTransformer
-    model = SentenceTransformer('all-MiniLM-L6-v2')
+    model = SentenceTransformer('all-mpnet-base-v2')
 
     # Connect/create DB
     db_path = Path(__file__).parent / "lancedb"
